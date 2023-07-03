@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e gerenciar repositorios
 
-<a href="https://tiagosimari.github.io/html-css/desafios/Desafio10/android">Android entrar</a>
+<a href="https://tiagosimari.github.io/html-css/desafios/Desafio10/android">entrar</a>
