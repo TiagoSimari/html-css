@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+html id=# css
+html class=. css
+
+
+*/
+body{background-color: #F2D7B6;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+h1{color:#8C3D35;}
+
+
+h1#principal{
+text-align: center;
+color:#592C28;
+   text-decoration: underline;
+   border: #A68C6D;
+}
+
+h2{
+color: #592C28;
+
+
+}
