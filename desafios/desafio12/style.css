@@ -3,38 +3,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Work+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Sriracha&family=Work+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300;1,400&display=swap');
 
+*{
+margin: 0px;
+padding: 0px;
+}
+html,body{
+background-color: darkgray;
+min-height: 100vh;
 
+}
 
-
-p.flor {
+section.flor {
     background-image: url(imagens/background001.jpg);
-    color: white;
-    font-size: 1.8vw;
-    font-family: 'Sriracha';
+   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
-    padding: 0px;
-    margin: 0;
+   
+   
 }
 h1{
 color: white;
 font-family: 'Passion one';
 text-align: center;
 font-size: 5vw;
+font-variant: small-caps;
+padding-top: 50px;
 }
 header{
     background-color: black;
-    padding: 25px 30px;
+  
    color: white;
 }
 a{
 text-decoration: none;
 text-align: center;
 color: white;
-
+padding-bottom: 50px;
 }
 a:hover{
 text-decoration: underline;
@@ -46,14 +52,25 @@ text-decoration: underline;
 h2{
 text-align: center;
 color: rgba(255, 255, 255, 0.836);
-padding: 10px;
+padding-bottom: 50px;
 
 
 
 }
-section{
+section.normal{
 font-family:'Sriracha';
 border:0.2vw solid black;
 font-size: 1.8vw;
 
+}
+section{
+padding-top: 10vh;
+padding-bottom: 10vh;
+line-height: 2em;
+padding-left: 30px;
+}
+section.flor>p{
+
+width: 400px;
+background-color: rgba(0, 0, 0, 0.158);
 }
